@@ -1,0 +1,140 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index:10;
+}
+.navbar-brand img
+{
+    height: 20px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+    float:right;
+    text-align: center;
+}
+#nav-bar ul li a:hover
+{
+    color: darkturquoise !important;
+}
+.navbar
+{
+    background: #fff;
+ }
+.navbar-toggler
+{
+    border: none !important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+.hero{
+  height: 103%;
+  width: 100%;
+ background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+  background-position: center;
+  background-size:cover;
+  position: absolute;
+  
+}
+.form-box{
+    width: 390px;
+    height: 550px;
+    position: relative;
+    margin: 6% auto;
+    background: transparent;
+    padding: 5px;
+}
+.button-box{
+    width: 290;
+    margin: 20px ;
+    position: relative;
+    box-shadow: 0 0 10px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background:transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+ 
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 290px;
+    height: 100%;
+    background: linear-gradient(to right,#fff,#74CFE3);
+    border-radius: 30px;
+    
+}
+.box{ 
+    height: 75px;
+}
+.inputgroup{
+    float: left;
+    top:70px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+       
+}
+
+.input-field{
+    
+    width: 50%;
+    padding: 5px 10px;
+    margin: 5px 57px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #fff;
+    color: white;
+    outline: none;
+    background: transparent;
+    &:focus {
+    transition: 250ms background ease-in;
+    font-size: 200px;
+  }
+    
+}
+
+.input-field2{
+    
+    width: 50%;
+    padding: 5px 10px;
+    margin:5px 10px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #fff;
+    color: white;
+    outline: none;
+    background: transparent;
+    &:focus {
+    transition: 250ms background ease-in;
+    font-size: 200px;
+  }
+    
+}
+#butn{  
+  color: rgb(252, 243, 243);  
+  background: #74CFE3;  
+  padding: 4px;  
+  margin-left: 35%;  
+  border-radius: 10px;
+}  
